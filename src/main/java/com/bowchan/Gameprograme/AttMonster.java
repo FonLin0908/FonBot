@@ -136,7 +136,7 @@ public class AttMonster {
         return monsterInformation;
     }
     public void updateFighting(){
-        File file = new File("GameInformation","fighting");
+        File file = new File("GameInformation","Fighting");
         try {
             FileWriter fileWriter = new FileWriter(file,false);
             //System.out.println(fighting + "123");
